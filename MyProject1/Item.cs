@@ -8,14 +8,14 @@ namespace MyProject1
 {
     internal class Item
     {
-        private int itemIndex;
-        private string itemName;
-        private string itemType;
-        private int itemStats;
-        private string itemDescription;
-        private int itemPrice;
-        private bool hasItem;
-        private bool isUsing;
+        private int itemIndex;          //아이템 번호
+        private string itemName;        //아이템 이름
+        private string itemType;        //아이템 종류
+        private int itemStats;          //아이템 스탯
+        private string itemDescription; //아이템 설명
+        private int itemPrice;          //아이템 가격
+        private bool hasItem;           //아이템 보유 상태
+        private bool isUsing;           //아이템 장착 상태
 
         public int ItemIndex
         {
